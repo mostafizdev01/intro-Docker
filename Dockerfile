@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-# VOLUME ["/app/logs"]
+# VOLUME [ "/app/logs" ] == ekhane name volume use korbo.
 
 EXPOSE 5000
 
